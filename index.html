@@ -11,17 +11,22 @@
             color: white;
             font-family: Arial, sans-serif;
         }
+        h1 {
+            margin-top: 20px;
+        }
         canvas {
             background-color: black;
             display: block;
-            margin: 20px auto;
+            margin: auto;
         }
     </style>
 </head>
 <body>
     <h1>Inyoka - Snake Game</h1>
-    <p>Use Arrow Keys to Move</p>
     <canvas id="gameCanvas" width="400" height="400"></canvas>
+    <p>Use Arrow Keys to Move</p>
+
+    <!-- Load JavaScript **AFTER** HTML to prevent errors -->
     <script src="script.js"></script>
 </body>
 </html>
